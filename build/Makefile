@@ -24,7 +24,7 @@ all: ${PDF}
 
 
 #%.pdf: $(SRC_LIST) #%.tex samplebody-conf.tex  ACM-Reference-Format.bst
-$(PDF): $(SRC_LIST) $(BIB_LIST)
+$(PDF): $(SRC_DIR)/main.tex $(SRC_DIR)/body_section/body_section.tex $(SRC_LIST) $(BIB_LIST)
 	cd $(SRC_DIR) && \
 	pdflatex -output-directory=$(BUILD_DIR) -shell-escape $(PAPER_NAME)
 	#cd $(SRC_DIR) && \

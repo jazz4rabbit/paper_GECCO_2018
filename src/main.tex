@@ -3,6 +3,20 @@
 \usepackage{booktabs} % For formal tables
 \usepackage[outdir=../build/]{epstopdf}
 
+%\usepackage{amsmath, amsfonts} % amsfonts[\mathbb]
+\usepackage[boxed]{algorithm2e}
+\usepackage{hyperref}
+
+\newtheorem{Proposition}[theorem]{\textnormal{\textit{Proposition}}}
+
+\DeclareMathOperator{\GL}{GL}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\B}{\mathcal{B}}
+\newcommand{\1}{\mathbf{1}}
+
+\usepackage{multirow}
+\usepackage[inline]{enumitem}
+\usepackage{adjustbox}
 
 % Copyright
 %\setcopyright{none}
@@ -34,18 +48,18 @@ Conference 2018}{July 15--19, 2018}{Kyoto, Japan}
 
 % These commands are optional
 %\acmBooktitle{Transactions of the ACM Woodstock conference}
-\editor{Jennifer B. Sartor}
-\editor{Theo D'Hondt}
-\editor{Wolfgang De Meuter}
+%\editor{Jennifer B. Sartor}
+%\editor{Theo D'Hondt}
+%\editor{Wolfgang De Meuter}
 
 
 \begin{document}
-\title{SIG Proceedings Paper in LaTeX Format}
-\titlenote{Produces the permission block, and
-  copyright information}
-\subtitle{Extended Abstract}
-\subtitlenote{The full version of the author's guide is available as
-  \texttt{acmart.pdf} document}
+\title{An Empirical Study on the Importance of Finding a Good Basis in Binary Representation}
+%\titlenote{Produces the permission block, and
+%  copyright information}
+%\subtitle{Extended Abstract}
+%\subtitlenote{The full version of the author's guide is available as
+%  \texttt{acmart.pdf} document}
 
 
 %\author{Ben Trovato}
@@ -164,7 +178,7 @@ Conference 2018}{July 15--19, 2018}{Kyoto, Japan}
 \ccsdesc[100]{Networks~Network reliability}
 
 
-\keywords{ACM proceedings, \LaTeX, text tagging}
+\keywords{change of basis, NK-landscape}
 
 
 \maketitle
