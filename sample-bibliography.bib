@@ -1,0 +1,535 @@
+%%% ====================================================================
+%%%  BibTeX-file{
+%%%     author          = "Gerry Murray",
+%%%     version         = "1.2",
+%%%     date            = "2 April 2012",
+%%%     filename        = "acmsmall-sample-bibfile.bib",
+%%%     address         = "ACM, NY",
+%%%     email           = "murray at hq.acm.org",
+%%%     codetable       = "ISO/ASCII",
+%%%     keywords        = "ACM Reference Format, bibliography, citation, references",
+%%%     supported       = "yes",
+%%%     docstring       = "This BibTeX database file contains 'bibdata' entries
+%%%                        that 'match' the examples provided in the Specifications Document
+%%%                        AND, also, 'legacy'-type bibs. It should assist authors in 
+%%%                        choosing the 'correct' at-bibtype and necessary bib-fields
+%%%                        so as to obtain the appropriate ACM Reference Format output. 
+%%%			   It also contains many 'Standard Abbreviations'. "
+%%%  }
+%%% ====================================================================
+
+% Journals
+
+% First the Full Name is given, then the abbreviation used in the AMS Math
+% Reviews, with an indication if it could not be found there.
+% Note the 2nd overwrites the 1st, so swap them if you want the full name.
+
+ %{AMS}
+ @String{AMSTrans = "American Mathematical Society Translations" }
+ @String{AMSTrans = "Amer. Math. Soc. Transl." }
+ @String{BullAMS = "Bulletin of the American Mathematical Society" }
+ @String{BullAMS = "Bull. Amer. Math. Soc." }
+ @String{ProcAMS = "Proceedings of the American Mathematical Society" }
+ @String{ProcAMS = "Proc. Amer. Math. Soc." }
+ @String{TransAMS = "Transactions of the American Mathematical Society" }
+ @String{TransAMS = "Trans. Amer. Math. Soc." }
+
+ %ACM
+ @String{CACM = "Communications of the {ACM}" }
+ @String{CACM = "Commun. {ACM}" }
+ @String{CompServ = "Comput. Surveys" }
+ @String{JACM = "J. ACM" }
+ @String{ACMMathSoft = "{ACM} Transactions on Mathematical Software" }
+ @String{ACMMathSoft = "{ACM} Trans. Math. Software" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newsletter" }
+ @String{SIGNUM = "{ACM} {SIGNUM} Newslett." }
+
+ @String{AmerSocio = "American Journal of Sociology" }
+ @String{AmerStatAssoc = "Journal of the American Statistical Association" }
+ @String{AmerStatAssoc = "J. Amer. Statist. Assoc." }
+ @String{ApplMathComp = "Applied Mathematics and Computation" }
+ @String{ApplMathComp = "Appl. Math. Comput." }
+ @String{AmerMathMonthly = "American Mathematical Monthly" }
+ @String{AmerMathMonthly = "Amer. Math. Monthly" }
+ @String{BIT = "{BIT}" }
+ @String{BritStatPsych = "British Journal of Mathematical and Statistical
+          Psychology" }
+ @String{BritStatPsych = "Brit. J. Math. Statist. Psych." }
+ @String{CanMathBull = "Canadian Mathematical Bulletin" }
+ @String{CanMathBull = "Canad. Math. Bull." }
+ @String{CompApplMath = "Journal of Computational and Applied Mathematics" }
+ @String{CompApplMath = "J. Comput. Appl. Math." }
+ @String{CompPhys = "Journal of Computational Physics" }
+ @String{CompPhys = "J. Comput. Phys." }
+ @String{CompStruct = "Computers and Structures" }
+ @String{CompStruct = "Comput. \& Structures" }
+ @String{CompJour = "The Computer Journal" }
+ @String{CompJour = "Comput. J." }
+ @String{CompSysSci = "Journal of Computer and System Sciences" }
+ @String{CompSysSci = "J. Comput. System Sci." }
+ @String{Computing = "Computing" }
+ @String{ContempMath = "Contemporary Mathematics" }
+ @String{ContempMath = "Contemp. Math." }
+ @String{Crelle = "Crelle's Journal" }
+ @String{GiornaleMath = "Giornale di Mathematiche" }
+ @String{GiornaleMath = "Giorn. Mat." } % didn't find in AMS MR., ibid.
+
+ %IEEE
+ @String{Computer = "{IEEE} Computer" }
+ @String{IEEETransComp = "{IEEE} Transactions on Computers" }
+ @String{IEEETransComp = "{IEEE} Trans. Comput." }
+ @String{IEEETransAC = "{IEEE} Transactions on Automatic Control" }
+ @String{IEEETransAC = "{IEEE} Trans. Automat. Control" }
+ @String{IEEESpec = "{IEEE} Spectrum" } % didn't find in AMS MR
+ @String{ProcIEEE = "Proceedings of the {IEEE}" }
+ @String{ProcIEEE = "Proc. {IEEE}" } % didn't find in AMS MR
+ @String{IEEETransAeroElec = "{IEEE} Transactions on Aerospace and Electronic
+     Systems" }
+ @String{IEEETransAeroElec = "{IEEE} Trans. Aerospace Electron. Systems" }
+
+ @String{IMANumerAna = "{IMA} Journal of Numerical Analysis" }
+ @String{IMANumerAna = "{IMA} J. Numer. Anal." }
+ @String{InfProcLet = "Information Processing Letters" }
+ @String{InfProcLet = "Inform. Process. Lett." }
+ @String{InstMathApp = "Journal of the Institute of Mathematics and
+     its Applications" }
+ @String{InstMathApp = "J. Inst. Math. Appl." }
+ @String{IntControl = "International Journal of Control" }
+ @String{IntControl = "Internat. J. Control" }
+ @String{IntNumerEng = "International Journal for Numerical Methods in
+     Engineering" }
+ @String{IntNumerEng = "Internat. J. Numer. Methods Engrg." }
+ @String{IntSuper = "International Journal of Supercomputing Applications" }
+ @String{IntSuper = "Internat. J. Supercomputing Applic." } % didn't find
+%% in AMS MR
+ @String{Kibernetika = "Kibernetika" }
+ @String{JResNatBurStand = "Journal of Research of the National Bureau
+     of Standards" }
+ @String{JResNatBurStand = "J. Res. Nat. Bur. Standards" }
+ @String{LinAlgApp = "Linear Algebra and its Applications" }
+ @String{LinAlgApp = "Linear Algebra Appl." }
+ @String{MathAnaAppl = "Journal of Mathematical Analysis and Applications" }
+ @String{MathAnaAppl = "J. Math. Anal. Appl." }
+ @String{MathAnnalen = "Mathematische Annalen" }
+ @String{MathAnnalen = "Math. Ann." }
+ @String{MathPhys = "Journal of Mathematical Physics" }
+ @String{MathPhys = "J. Math. Phys." }
+ @String{MathComp = "Mathematics of Computation" }
+ @String{MathComp = "Math. Comp." }
+ @String{MathScand = "Mathematica Scandinavica" }
+ @String{MathScand = "Math. Scand." }
+ @String{TablesAidsComp = "Mathematical Tables and Other Aids to Computation" }
+ @String{TablesAidsComp = "Math. Tables Aids Comput." }
+ @String{NumerMath = "Numerische Mathematik" }
+ @String{NumerMath = "Numer. Math." }
+ @String{PacificMath = "Pacific Journal of Mathematics" }
+ @String{PacificMath = "Pacific J. Math." }
+ @String{ParDistComp = "Journal of Parallel and Distributed Computing" }
+ @String{ParDistComp = "J. Parallel and Distrib. Comput." } % didn't find
+%% in AMS MR
+ @String{ParComputing = "Parallel Computing" }
+ @String{ParComputing = "Parallel Comput." }
+ @String{PhilMag = "Philosophical Magazine" }
+ @String{PhilMag = "Philos. Mag." }
+ @String{ProcNAS = "Proceedings of the National Academy of Sciences
+                    of the USA" }
+ @String{ProcNAS = "Proc. Nat. Acad. Sci. U. S. A." }
+ @String{Psychometrika = "Psychometrika" }
+ @String{QuartMath = "Quarterly Journal of Mathematics, Oxford, Series (2)" }
+ @String{QuartMath = "Quart. J. Math. Oxford Ser. (2)" }
+ @String{QuartApplMath = "Quarterly of Applied Mathematics" }
+ @String{QuartApplMath = "Quart. Appl. Math." }
+ @String{RevueInstStat = "Review of the International Statisical Institute" }
+ @String{RevueInstStat = "Rev. Inst. Internat. Statist." }
+
+ %SIAM
+ @String{JSIAM = "Journal of the Society for Industrial and Applied
+     Mathematics" }
+ @String{JSIAM = "J. Soc. Indust. Appl. Math." }
+ @String{JSIAMB = "Journal of the Society for Industrial and Applied
+     Mathematics, Series B, Numerical Analysis" }
+ @String{JSIAMB = "J. Soc. Indust. Appl. Math. Ser. B Numer. Anal." }
+ @String{SIAMAlgMeth = "{SIAM} Journal on Algebraic and Discrete Methods" }
+ @String{SIAMAlgMeth = "{SIAM} J. Algebraic Discrete Methods" }
+ @String{SIAMAppMath = "{SIAM} Journal on Applied Mathematics" }
+ @String{SIAMAppMath = "{SIAM} J. Appl. Math." }
+ @String{SIAMComp = "{SIAM} Journal on Computing" }
+ @String{SIAMComp = "{SIAM} J. Comput." }
+ @String{SIAMMatrix = "{SIAM} Journal on Matrix Analysis and Applications" }
+ @String{SIAMMatrix = "{SIAM} J. Matrix Anal. Appl." }
+ @String{SIAMNumAnal = "{SIAM} Journal on Numerical Analysis" }
+ @String{SIAMNumAnal = "{SIAM} J. Numer. Anal." }
+ @String{SIAMReview = "{SIAM} Review" }
+ @String{SIAMReview = "{SIAM} Rev." }
+ @String{SIAMSciStat = "{SIAM} Journal on Scientific and Statistical
+     Computing" }
+ @String{SIAMSciStat = "{SIAM} J. Sci. Statist. Comput." }
+
+ @String{SoftPracExp = "Software Practice and Experience" }
+ @String{SoftPracExp = "Software Prac. Experience" } % didn't find in AMS MR
+ @String{StatScience = "Statistical Science" }
+ @String{StatScience = "Statist. Sci." }
+ @String{Techno = "Technometrics" }
+ @String{USSRCompMathPhys = "{USSR} Computational Mathematics and Mathematical
+     Physics" }
+ @String{USSRCompMathPhys = "{U. S. S. R.} Comput. Math. and Math. Phys." }
+ @String{VLSICompSys = "Journal of {VLSI} and Computer Systems" }
+ @String{VLSICompSys = "J. {VLSI} Comput. Syst." }
+ @String{ZAngewMathMech = "Zeitschrift fur Angewandte Mathematik und
+     Mechanik" }
+ @String{ZAngewMathMech = "Z. Angew. Math. Mech." }
+ @String{ZAngewMathPhys = "Zeitschrift fur Angewandte Mathematik und Physik" }
+ @String{ZAngewMathPhys = "Z. Angew. Math. Phys." }
+
+% Publishers % ================================================= |
+
+ @String{Academic = "Academic Press" }
+ @String{ACMPress = "{ACM} Press" }
+ @String{AdamHilger = "Adam Hilger" }
+ @String{AddisonWesley = "Addison-Wesley" }
+ @String{AllynBacon = "Allyn and Bacon" }
+ @String{AMS = "American Mathematical Society" }
+ @String{Birkhauser = "Birkha{\"u}ser" }
+ @String{CambridgePress = "Cambridge University Press" }
+ @String{Chelsea = "Chelsea" }
+ @String{ClaredonPress = "Claredon Press" }
+ @String{DoverPub = "Dover Publications" }
+ @String{Eyolles = "Eyolles" }
+ @String{HoltRinehartWinston = "Holt, Rinehart and Winston" }
+ @String{Interscience = "Interscience" }
+ @String{JohnsHopkinsPress = "The Johns Hopkins University Press" }
+ @String{JohnWileySons = "John Wiley and Sons" }
+ @String{Macmillan = "Macmillan" }
+ @String{MathWorks = "The Math Works Inc." }
+ @String{McGrawHill = "McGraw-Hill" }
+ @String{NatBurStd = "National Bureau of Standards" }
+ @String{NorthHolland = "North-Holland" }
+ @String{OxfordPress = "Oxford University Press" }  %address Oxford or London?
+ @String{PergamonPress = "Pergamon Press" }
+ @String{PlenumPress = "Plenum Press" }
+ @String{PrenticeHall = "Prentice-Hall" }
+ @String{SIAMPub = "{SIAM} Publications" }
+ @String{Springer = "Springer-Verlag" }
+ @String{TexasPress = "University of Texas Press" }
+ @String{VanNostrand = "Van Nostrand" }
+ @String{WHFreeman = "W. H. Freeman and Co." }
+
+%Entries
+
+@article{kim2008two,
+  title={Two congruence classes for symmetric binary matrices over {$ \mathbb{F}_2 $} },
+  author={Kim, Yong-Hyuk and Seo, Keomkyo},
+  journal={WSEAS Transactions on Mathematics},
+  volume={7},
+  number={6},
+  pages={339--343},
+  year={2008},
+  publisher={World Scientific and Engineering Academy and Society (WSEAS)}
+}
+
+@article{anderson1998turning,
+  title={Turning lights out with linear algebra},
+  author={Anderson, Marlow and Feil, Todd},
+  journal={Mathematics Magazine},
+  volume={71},
+  number={4},
+  pages={300--303},
+  year={1998},
+  publisher={JSTOR}
+}
+
+@Book{biggs1993algebraic,
+  title={Algebraic Graph Theory},
+  author={Biggs, Norman},
+  publisher={Cambridge University Press},
+  address={Cambridge, UK},
+  edition = {2nd},
+  year={1994}
+}
+
+@Book{brualdi1991combinatorial,
+  title={Combinatorial Matrix Theory},
+  author={Brualdi, Richard A and Ryser, Herbert J},
+  year={1991},
+  publisher={Cambridge Uiversity Press},
+  address={Cambridge, UK}
+}
+
+@inproceedings{kim2005new,
+  title={New topologies for genetic search space},
+  author={Kim, Yong-Hyuk and Moon, Byung-Ro},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation},
+  pages={1393--1399},
+  month={June},
+  year={2005},
+  address={New York, NY, USA}
+}
+
+@article{yoon2011note,
+  title={A note on edge-based graph partitioning and its linear algebraic structure},
+  author={Yoon, Yourim and Kim, Yong-Hyuk and Moon, Byung-Ro},
+  journal={Journal of Mathematical Modelling and Algorithms},
+  volume={10},
+  number={3},
+  pages={269--276},
+  year={2011},
+  publisher={Springer}
+}
+
+@inproceedings{kim2008linear,
+  title={Linear transformation in pseudo-Boolean functions},
+  author={Kim, Yong-Hyuk},
+  booktitle={Proceedings of the 10th Annual Conference on Genetic and Evolutionary Computation},
+  pages={1117--1118},
+  month={July},
+  year={2008},
+  organization={ACM}
+}
+
+@article{kim2008effect,
+  title={Effect of changing the basis in genetic algorithms using binary encoding},
+  author={Kim, Yong-Hyuk and Yoon, Yourim},
+  journal={KSII Transactions on Internet and Information Systems},
+  volume={2},
+  number={4},
+  pages={184--193},
+  year={2008}
+}
+
+@inproceedings{hwang2006multi,
+  title={Multi-attractor gene reordering for graph bisection},
+  author={Hwang, Inwook and Kim, Yong-Hyuk and Moon, Byung-Ro},
+  booktitle={Proceedings of the 8th Annual Conference on Genetic and Evolutionary Computation},
+  pages={1209--1215},
+  month={July},
+  year={2006}
+}
+
+@inproceedings{kim2003problem,
+  title={Problem-independent schema synthesis for genetic algorithms},
+  author={Kim, Yong-Hyuk and Kwon, Yung-Keun and Moon, Byung-Ro},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+  pages={1112--1122},
+  year={2003}
+}
+
+@inproceedings{seo2012spanning,
+  title={A spanning tree-based encoding of the MAX CUT problem for evolutionary search},
+  author={Seo, Kisung and Hyun, Soohwan and Kim, Yong-Hyuk},
+  booktitle={International Conference on Parallel Problem Solving from Nature},
+  volume={7491},
+  pages={510--518},
+  year={2012},
+  series={Lecture Notes in Computer Science}
+}
+@inproceedings{wyatt2003finding,
+  title={Finding building blocks through eigenstructure adaptation},
+  author={Wyatt, Danica and Lipson, Hod},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+  pages={1518--1529},
+  year={2003}
+}
+
+@article{moon1998georg,
+  title={{GEORG}: {VLSI} circuit partitioner with a new genetic algorithm framework},
+  author={Moon, Byung-Ro and Lee, Yun-Sik and Kim, Chun-Kyung},
+  journal={Journal of Intelligent Manufacturing},
+  volume={9},
+  number={5},
+  pages={401--412},
+  year={1998},
+}
+
+@inproceedings{cohoon1987genetic,
+  title={Genetic placement},
+  author={Cohoon, James P and Paris, William D},
+  booktitle={Proceedings of the IEEE International Conference on Computer-Aided Design},
+  pages={422--425},
+  year={1986}
+}
+
+@article{anderson1991two,
+  title={A two-dimensional genetic algorithm for the Ising problem},
+  author={Anderson, Charles A and Jones, Kathryn F and Ryan, Jennifer},
+  journal={Complex Systems},
+  volume={5},
+  number={3},
+  pages={327--334},
+  year={1991}
+}
+
+@inproceedings{kahng1995toward,
+  title={Toward More Powerful Recombinations.},
+  author={Kahng, Andrew B and Moon, Byung Ro},
+  booktitle={Proceedings of the 6th International Conference on Genetic Algorithms},
+  pages={96--103},
+  year={1995}
+}
+
+@inproceedings{park2002genetic,
+  title={Genetic search for fixed channel assignment problem with limited bandwidth},
+  author={Park, Eun-Jong and Kim, Yong-Hyuk and Moon, Byung-Ro},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation},
+  pages={1172--1179},
+  year={2002}
+}
+
+@Book{friedberglinear,
+  author={Friedberg, Stephen H and Insel, A J and Spence, L E},
+  year={1997},
+  title={Linear algebra},
+  publisher={Prentice Hall}, 
+  address={Upper Saddle River, NJ, USA},
+  edition={3rd}
+}
+
+@article{moraglio2007geometric,
+  title={Geometric crossovers for multiway graph partitioning},
+  author={Moraglio, Alberto and Kim, Yong-Hyuk and Yoon, Yourim and Moon, Byung-Ro},
+  journal={Evolutionary Computation},
+  volume={15},
+  number={4},
+  pages={445--474},
+  year={2007}
+}
+
+@inproceedings{moraglio2004topological,
+  title={Topological interpretation of crossover},
+  author={Moraglio, Alberto and Poli, Riccardo},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+  pages={1377--1388},
+  year={2004}
+}
+
+@article{yoon2013efficient,
+  title={An efficient genetic algorithm for maximum coverage deployment in wireless sensor networks},
+  author={Yoon, Yourim and Kim, Yong-Hyuk},
+  journal={IEEE Transactions on Cybernetics},
+  volume={43},
+  number={5},
+  pages={1473--1483},
+  year={2013},
+  publisher={IEEE}
+}
+
+@article{yoon2013geometricity,
+  title={Geometricity of genetic operators for real-coded representation},
+  author={Yoon, Yourim and Kim, Yong-Hyuk},
+  journal={Applied Mathematics and Computation},
+  volume={219},
+  number={23},
+  pages={10915--10927},
+  year={2013},
+  publisher={Elsevier}
+}
+
+@article{yoon2012quotient,
+  title={Quotient geometric crossovers and redundant encodings},
+  author={Yoon, Yourim and Kim, Yong-Hyuk and Moraglio, Alberto and Moon, Byung-Ro},
+  journal={Theoretical Computer Science},
+  volume={425},
+  pages={4--16},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@article{yoon2012theoretical,
+  title={A theoretical and empirical study on unbiased boundary-extended crossover for real-valued representation},
+  author={Yoon, Yourim and Kim, Yong-Hyuk and Moraglio, Alberto and Moon, Byung-Ro},
+  journal={Information Sciences},
+  volume={183},
+  number={1},
+  pages={48--65},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@inproceedings{moraglio2006geometric,
+  title={Geometric crossover for biological sequences},
+  author={Moraglio, Alberto and Poli, Riccardo and Seehuus, Rolv},
+  booktitle={Proceedings of the European Conference on Genetic Programming},
+  pages={121--132},
+  year={2006}
+}
+
+@techreport{yoon2009mathematical,
+  title={Mathematical interpretation between genotype and phenotype spaces and induced geometric crossovers},
+  author={Yoon, Yourim and Kim, Yong-Hyuk and Moraglio, Alberto and Moon, Byung-Ro},
+  institution={Abs/0907.3202, CoRR},
+  address={Ithaca, NY, USA},
+  year={2009}
+}
+
+@techreport{yoon2009amathematical,
+  title={A mathematical unification of geometric crossovers defined on phenotype space},
+  author={Yoon, Yourim and Kim, Yong-Hyuk and Moraglio, Alberto and Moon, Byung-Ro},
+  institution={Abs/0907.3200, CoRR},
+  address={Ithaca, NY, USA},
+  year={2009}
+}
+
+
+
+
+
+
+
+
+@article{yoon2014mathematical,
+  title={A Mathematical Design of Genetic Operators on {$ GL_n(\Z_2) $}},
+  author={Yoon, Yourim and Kim, Yong-Hyuk},
+  journal={Mathematical Problems in Engineering},
+  volume={2014},
+  year={2014},
+  publisher={Hindawi},
+  note={Article ID 540936, 8 pages}
+}
+
+@article{wagner1974string,
+  title={The string-to-string correction problem},
+  author={Wagner, Robert A and Fischer, Michael J},
+  journal={Journal of the ACM},
+  volume={21},
+  number={1},
+  pages={168--173},
+  year={1974},
+  publisher={ACM}
+}
+
+@article{miller1995genetic,
+  title={Genetic algorithms, tournament selection, and the effects of noise},
+  author={Miller, Brad L and Goldberg, David E and others},
+  journal={Complex systems},
+  volume={9},
+  number={3},
+  pages={193--212},
+  year={1995}
+}
+@article{cavicchio1970adaptive,
+  title={Adaptive search using simulated evolution},
+  author={Cavicchio, Daniel Joseph},
+  year={1970}
+}
+
+
+@article{kauffman1989nk,
+  title={The {$NK$} model of rugged fitness landscapes and its application to maturation of the immune response},
+  author={Kauffman, Stuart A and Weinberger, Edward D},
+  journal={Journal of theoretical biology},
+  volume={141},
+  number={2},
+  pages={211--245},
+  year={1989},
+  publisher={Elsevier}
+}
+
+@inproceedings{yu2017epistasis,
+  title={Relationship between Epistasis on Performance of Genetic Algorithm},
+  author={Yu, Dong-Pil and Kim, Yong-Hyuk},
+  booktitle={Convergence Research Letters},
+  volume={3},
+  number={4},
+  month={October},
+  year={2017},
+  pages={675-680},
+}
